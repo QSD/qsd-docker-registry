@@ -1,4 +1,4 @@
 common: &common
     loglevel: _env:LOGLEVEL:info
     disable_token_auth: _env:ENABLE_TOKEN_AUTH
-    privileged_key: _env:/opt/registry/public.pem
+    privileged_key: _env:/opt/docker/public.pem
